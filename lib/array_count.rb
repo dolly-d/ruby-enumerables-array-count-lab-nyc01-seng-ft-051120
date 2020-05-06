@@ -10,7 +10,7 @@ def count_strings(array)
       if array[row_index][count].is_a?(String)
         total += 1 
       end 
-  count += 1
+      count += 1
 end
 return total 
 end
