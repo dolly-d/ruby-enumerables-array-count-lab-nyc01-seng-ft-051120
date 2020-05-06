@@ -4,10 +4,14 @@ def count_strings(array)
   total = 0
   row_index = 0 
   count = 0 
-    while count < array.length do 
+  
+  while count < array.length do 
     if src[row_index][count].is_a?(String)
-      
- 
+    total += 1 
+  end 
+  count += 1
+end
+total 
 end
 
 def count_empty_strings(array)
