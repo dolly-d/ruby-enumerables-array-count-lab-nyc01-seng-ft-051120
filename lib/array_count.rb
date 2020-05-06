@@ -8,7 +8,7 @@ def count_strings(array)
      count = 0 
      while count < array.length do
       if array[row_index][count].is_a?(String)
-    total += 1 
+        total += 1 
     end 
   count += 1
 end
