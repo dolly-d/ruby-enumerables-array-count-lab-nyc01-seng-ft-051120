@@ -6,7 +6,7 @@ def count_strings(array)
   count = 0 
   
   while count < array.length do 
-    if src[row_index][count].is_a?(String)
+    if array[row_index][count].is_a?(String)
     total += 1 
   end 
   count += 1
