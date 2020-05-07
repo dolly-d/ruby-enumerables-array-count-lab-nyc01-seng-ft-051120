@@ -17,7 +17,7 @@ def count_empty_strings(array)
   total = 0
   count = 0 
   while count < array.length do
-    if array.length == 0 
+    if array.length = 0 
       total += 1 
     end 
     count += 1 
