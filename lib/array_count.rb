@@ -17,8 +17,10 @@ def count_empty_strings(array)
   total = 0
   count = 0 
   while count < array.length do
-    if string.length == 0 
-      total += 1 
+    if array[count].is_a?(String)
+      if array[count].length == 0 
+        total += 1 
+      end
     end 
     count += 1 
   end
